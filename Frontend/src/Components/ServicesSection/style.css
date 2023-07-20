@@ -1,0 +1,88 @@
+.ContainerService{
+    position: relative;
+    top: 20px;
+    padding: 15px;
+}
+
+.TitleServices{
+    text-align: center;
+    font-size: 37px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+.WrapperContent{
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:45px;
+}
+.Image_Icons{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid black;
+    
+}
+.WrapperIcons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 130%;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 400 ;
+    gap: 15px;
+ 
+}
+.WrapperIcons p{
+    font-weight: 500;
+}
+.WrapperIcons_sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.WrapperIcons_main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+.WrapperIcons_main p{
+    font-weight: bold;
+    font-size: 27px;
+}
+.Content{
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+}
+@media(max-width:500px){
+    .Content{
+        font-size: 15px;
+
+    }
+    .Image_Icons{
+        width: 150px;
+        height: 150px;
+    }
+    .WrapperIcons{
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+        line-height: 90%;
+        letter-spacing: 0.2px;
+    }
+    .WrapperIcons_main p{
+        font-size: 21px;
+    }
+    .WrapperIcons_sub{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,95 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+.Container_List{
+    background-image: url("../../assets/images/5137894.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center center;
+    background-position: 50% 50%;
+
+}
+.Header_obra{
+    width: 100%;
+    height: 70px;
+    background: rgb(28,27,29);
+    background: linear-gradient(90deg, rgba(28,27,29,1) 0%, rgba(36,36,40,1) 100%, rgba(205,212,213,1) 100%);
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.Carrosel_Container{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    max-height: 1100px;
+}
+.Image_Obras:hover{
+    cursor: pointer;
+    transition: 1s;
+    box-shadow:  6px 6px 8px 8px  #0000009f;
+}
+.Title_Header{
+    color: #fff;
+    margin: 25px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.Link_Home{
+    color: #fff;
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+@media(max-width:500px){
+    .Image_Obras{
+        margin: 0 auto;
+        position: relative;
+        left: 25px;
+    }
+}
+.slide img{
+    width: 30rem;
+    margin: 0 auto;
+    border: 10px;
+}
+.slide{
+    transform: scale(0.2);
+    transition: transform 300ms;
+    opacity: 0.5;
+
+}
+.activeSlide{
+    transform: scale(1.1);
+    opacity: 1;
+    color: #0000009f;
+}
+.Icon_route{
+    position: absolute;
+    width: 70px;
+    color: #fff;
+}
+.Icon svg{
+    transition: color 300ms;
+}
+.Icon:hover{
+    color: #f5f9f5;
+}
+.Next{
+    right: 5%;
+    top: 100%;
+}
+.Prev {
+    left: 5%;
+    top: 100%;
+}
+.Background{
+    position: relative;
+
+}

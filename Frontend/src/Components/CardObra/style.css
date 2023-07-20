@@ -1,0 +1,25 @@
+.CardWrapper{
+    border: 2px solid black;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: auto;
+}
+
+.TitleCard{
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.link_page{
+    text-decoration: none;
+    color: #1976d2;
+    position: relative;
+}
+.ImageContainer{
+    position: fixed;
+    width: 100%;
+}
+.Images{
+    width: 100%;
+    max-height: 220px;
+}

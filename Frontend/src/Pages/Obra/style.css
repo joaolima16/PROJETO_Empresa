@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.Container_PageObra{
+    background-image: url("../../assets/images/grey-geometrical-shapes-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center center;
+    background-position: 50% 50%;
+
+}
+.Header_Obra{
+    width: 100%;
+    height: 70px;
+    background: rgb(28,27,29);
+    background: linear-gradient(90deg, rgba(28,27,29,1) 0%, rgba(36,36,40,1) 100%, rgba(205,212,213,1) 100%);
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Content_Header{
+    color: #fff;
+    margin: 15px;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+.Logo_Obra{
+    width: 50px;
+    height: 50px;
+    margin:15px;
+}
+.Icon_Back{
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    color: #fffffff1;
+
+}
+.Container_Obra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    gap: 20px;
+   
+}
+.Image_Obra img{
+    width: 500px;
+    height: 400px;
+}
+.Title_Obra{
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 3.5px solid #000;
+    font-weight: 700;
+    padding: 5px;
+    color: #f5f5f5;
+}
+.Container_Informations{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #ffffffee;
+    font-family: 'Rubik', sans-serif;
+}
+.Content_Obra{
+    font-size: 19px;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-weight: 400;
+    color: #f5f5f5;
+}
+.Subtitle_Obra{
+    font-size: 24px;
+    font-weight: 600;
+}
+.Section_Obras{
+    position: relative;
+    top:100px;
+    width: 100%;
+    margin:  0 auto;
+}
+.ListImages{
+    width: 350px;
+    height:250px;
+    padding: 15px;
+    cursor: pointer;
+}
+.col{
+    padding: 10px;
+}
+.container{
+    margin: 0 auto
+}
+@media(max-width: 700px){
+    .Image_Obra{
+        margin: 0 auto;
+    }
+    .Image_Obra img{
+        width: 300px;
+        height: 200px;
+    }
+    .Container_Obra{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Content_Obra{
+        letter-spacing: 0.2px;
+    }
+    .ListImages{
+        margin: 0 auto;
+    }
+    .col{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 500px){
+    .Title_Obra{
+        font-size: 25px;
+    }
+}
